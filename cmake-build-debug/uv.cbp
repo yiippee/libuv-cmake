@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="uv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uv">
+				<Option output="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/libuv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_POSIX_C_SOURCE=200112"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/include"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 uv"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uv/fast">
+				<Option output="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/libuv.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_POSIX_C_SOURCE=200112"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/include"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 uv/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libuvtest">
+				<Option output="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/libuvtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_POSIX_C_SOURCE=200112"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/include"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 libuvtest"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libuvtest/fast">
+				<Option output="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/libuvtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_LARGEFILE_SOURCE"/>
+					<Add option="-D_FILE_OFFSET_BITS=64"/>
+					<Add option="-D_GNU_SOURCE"/>
+					<Add option="-D_POSIX_C_SOURCE=200112"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/include"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src"/>
+					<Add directory="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 libuvtest/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/aix.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/bsd.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/darwin.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/errno.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/linux.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/sunos.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/threadpool.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/tree.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/unix.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/include/uv/version.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/fs-poll.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/heap-inl.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/inet.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/loop-watcher.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/queue.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/threadpool.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/timer.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/async.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/atomic-ops.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/core.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/dl.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/fs.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/getaddrinfo.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/getnameinfo.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/internal.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/linux-core.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/linux-inotify.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/linux-syscalls.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/linux-syscalls.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/loop.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/pipe.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/poll.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/process.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/proctitle.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/signal.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/spinlock.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/stream.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/tcp.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/thread.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/tty.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/unix/udp.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/uv-common.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/uv-common.h">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/libuv/src/version.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/main.c">
+			<Option target="uv"/>
+			<Option target="libuvtest"/>
+		</Unit>
+		<Unit filename="/home/lzb/CLionProjects/libuv-cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

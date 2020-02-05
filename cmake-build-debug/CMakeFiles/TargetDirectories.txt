@@ -1,0 +1,4 @@
+/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/CMakeFiles/uv.dir
+/home/lzb/CLionProjects/libuv-cmake/cmake-build-debug/CMakeFiles/uvtest.dir

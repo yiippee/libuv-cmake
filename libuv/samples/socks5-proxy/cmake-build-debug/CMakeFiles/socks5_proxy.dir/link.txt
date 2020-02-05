@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/socks5_proxy.dir/client.c.o CMakeFiles/socks5_proxy.dir/getopt.c.o CMakeFiles/socks5_proxy.dir/main.c.o CMakeFiles/socks5_proxy.dir/s5.c.o CMakeFiles/socks5_proxy.dir/server.c.o CMakeFiles/socks5_proxy.dir/util.c.o  -o socks5_proxy 
